@@ -1,0 +1,106 @@
+body{
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      color: white;
+  }
+  div{
+    margin-top: 30px;
+    display: block;
+  }
+  h1, p{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  h1{
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+   #description{
+     margin-top: 5px;
+     font-style: italic;
+     font-size: 1.2em;
+     font-weight: 200;
+  }
+  #survey-form{
+    display: block;
+    width: 80vh;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 25px 25px 50px 25px;
+  }
+  fieldset{
+    border: none;
+    margin: 0;
+  }
+  label{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin: 10px;
+  }
+  input{
+    display: inline-block;
+    width: 550px;
+    height: 2rem;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  select{
+    width: 550px;
+    height: 2rem;
+    font-size: 1em;
+    padding-left: 5px;
+    margin-left: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  div .radio{
+    display: flex;
+    margin: 0;
+  }
+  input[type="radio"] {
+    width: unset;
+  }
+  
+  input[type="checkbox"]{
+    width: 18px;
+    margin-right: 5px;
+    margin-left: 0;
+    font-size: 10px;
+    font-family: sasans-serif;
+  }
+  #comments{
+    width: 550px;
+    border-radius: 5px;
+    height: 8em;
+    margin-left: 9px;
+    padding: 5px 0 0 5px;
+    font-size: 1em;
+    font-family: sans-serif;
+  }
+  .textarea, .favorite{
+    margin-top: 2em;
+  }
+  input[type="submit"] {
+    width: 550px;
+    height: 2.5em;
+    background-color: #37af65;
+    margin-left: 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
